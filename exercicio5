@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atividade 5 </title>
+</head>
+<body>
+    <script>
+        var num1;
+        var num2;
+
+        num1=prompt(" Digite o primeiro número: ");
+        num1=parseFloat(num1);
+        
+        num2=prompt(" Digite o segundo número: ");
+        num2=parseFloat(num2);
+
+        if(num1 > num2){
+            alert( +num1 +" é maior ");
+        }
+        else{
+            alert( +num2 +" é maior ");
+        }
+
+    </script>
+
+    <p> 6. Elabore um algoritmo que leia dois números e imprima qual é maior e qual é menor. </p>
+
+    <button><a href="./index6.html"> Próxima atividade </a></button>
+
+    <br>
+    <br>
+    <button><a href="./index.html"> Pagina Inicial</a></button>
+
+</body>
+</html>
