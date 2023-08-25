@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ativ 7 </title>
+</head>
+<body>
+    <script>
+        var num1;
+        var num2;
+        var num3;
+
+        num1=prompt(" Digite o pirmeiro número: ");
+        num1=parseFloat(num1);
+        
+        num2=prompt(" Digite o segundo número: ");
+        num2=parseFloat(num2);
+
+        num3=prompt(" Digite o terceiro número: ");
+        num3=parseFloat(num3);
+
+
+        if(num1 > num2 && num1 > num3){
+            alert(" O " +num1 +" é maior ");
+
+            if(num2 > num1 && num2 > num3){
+                alert(" O " +num2 +" é maior");
+            }
+        } 
+        else{
+            alert(" O " +num3 +" é maior ");
+        }
+
+    </script>
+</body>
+</html>
