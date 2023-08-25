@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atividade 15 </title>
+</head>
+<body>
+    <script>
+        var nome;
+        var idade;
+        var salario;
+        var sexo;
+        var estacivil;
+
+        nome=prompt(" Digite seu nome: ");
+
+        while (nome.length<=3) {
+            alert("Nome inválido. \n Seu nome deve ter mais de 3 letras.");
+            nome=prompt(" Digite seu nome novamente:");
+        }
+
+        idade=prompt(" Digite sua idade: ");
+        idade=parseFloat(idade)
+
+        while (idade<0 || idade>150) {
+            alert(" Idade inválida.\n A idade deve estar entre 0 e 150 anos.");
+            idade=prompt(" Digite sua idade novamente: ");
+            idade=parseFloat(idade);
+        }
+
+        salario=prompt(" Digite seu salário: ");
+        salario=parseFloat(salario);
+
+        while (salario<=0) {
+            alert(" Salário inválido. \n O salário deve ser maior que zero.");
+            salario = prompt(" Digite o salário novamente: ");
+            salario=parseFloat(salario);
+        }
+
+        sexo=prompt(" Digite seu sexo: \n (f - feminino / m - masculino) ");
+
+        while (sexo!=='f' && sexo!=='m') {
+            alert(" Sexo inválido. \n O sexo deve ser 'f' ou 'm'. ");
+            sexo = prompt(" Digite o sexo novamente: \n (f - feminino / m - masculino) ");
+        }
+
+        estacivil=prompt(" Digite seu estado civil: \n (s - solteiro(a), c - casado(a), v - viúvo(a), d - divorciado(a)) ");
+
+        while (estacivil!=='s' && estacivil!=='c' && estacivil!=='v' && estacivil!=='d') {
+            alert(" Estado civil inválido. \n O estado civil deve ser 's', 'c', 'v' ou 'd'.");
+            estacivil=prompt(" Digite o estado civil novamente: \n (s - solteiro(a), c - casado(a), v - viúvo(a), d - divorciado(a)) ");  
+        }
+
+        alert(" Informações válidas! ");
+
+    </script>
+
+    <p>
+       
