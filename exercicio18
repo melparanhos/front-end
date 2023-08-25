@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atividade 18 </title>
+</head>
+<body>
+    <script>
+        var num1, num2, temp, resultado, i;
+        num1 = prompt("Digite o primeiro número inteiro:");
+        num1 = parseInt(num1);
+
+        num2 = prompt("Digite o segundo número inteiro:");
+        num2 = parseInt(num2);
+
+        
+        if (num1 > num2) {
+            temp = num1;
+            num1 = num2;
+            num2 = temp;
+        }
+
+        resultado = "";
+        for (i = num1 + 1; i < num2; i++) {
+            resultado += i + " ";
+        }
+
+        alert("Os números inteiros no intervalo entre " + num1 + " e " + num2 + " são:\n" + resultado);
+
+    </script>
+
+    <br>
+    <br>
+    <button><a href="./index.html"> Pagina Inicial</a></button>
+
+</body>
+</html>
