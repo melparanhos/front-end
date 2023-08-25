@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atividade 4 </title>
+</head>
+<body>
+    <script>
+        var  num;
+        num=prompt(" Digite um número: ");
+        num=parseFloat(num);
+        if(num > 20 && num < 90){
+            alert(" O número está entre 20 e 90 ");
+        }
+        else{
+            alert(" O número não está  entre 20 e 90 ");
+        }
+
+    </script>
+
+    <p> 5. Elabore um algoritmo que leia dois números e imprima o maior número. </p>
+
+    <button><a href="./index5.html"> Próxima atividade </a></button>
+
+    <br>
+    <br>
+    <button><a href="./index.html"> Pagina Inicial</a></button>
+
+</body>
+</html>
