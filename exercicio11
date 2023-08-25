@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atividade 11 </title>
+</head>
+<body>
+    <script>
+        var num;
+
+        num=prompt(" Digite um número: ");
+        num=parseFloat(num);
+        
+        if(num%2==0){
+            alert(" O número " +num +" é par ");
+        }
+        else{
+            alert(" O número " +num +" é ímpar ");
+        }
+
+    </script>
+
+  
