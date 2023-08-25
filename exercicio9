@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atividade 9 </title>
+</head>
+<body>
+    <script>
+        var i;
+        i = alert(" Não consegui fazer essa 😑 ");
+
+    </script>
+
+    <p> 10. Elabore um algoritmo que leia o nome e o peso de duas pessoas e imprima o nome da pessoa mais gorda. </p>
+
+    <button><a href="./index10.html"> Próxima atividade </a></button>
+
+    <br>
+    <br>
+    <button><a href="./index.html"> Pagina Inicial</a></button>
+
+</body>
+</html>
