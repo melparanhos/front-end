@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atividade 14 </title>
+</head>
+<body>
+    <script>
+        var nome;
+        var senha;
+
+        nome=prompt(" Digite seu nome de usuário: ");
+        senha=prompt(" Digite sua senha: ");
+
+        while(senha==nome){
+            alert(" Senha inválida. A senha não pode ser igual ao nome de usuário ");
+            senha=prompt(" Digite a senha novamente: ");
+        }
+
+        alert(" Login feito com sucesso! ");
+
+    </script>
+
+    <p>
+       
