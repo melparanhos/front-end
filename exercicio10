@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atividade 10 </title>
+</head>
+<body>
+    <script>
+        var pessoa1; 
+        var pessoa2; 
+        var peso1; 
+        var peso2;
+        pessoa1=prompt(" Digite o nome da primeira pessoa: ");
+        peso1=prompt(" Digite o peso da primeira pessoa: ");
+        peso1=parseFloat(peso1);
+        pessoa2=prompt(" Digite o nome da segunda pessoa: ");
+        peso2=prompt(" Digite o peso da segunda pessoa: ");
+        peso2=parseFloat(peso2);
+        if(peso1>peso2){
+            alert(" A " +pessoa1 +" é mais pesada que a " +pessoa2);
+        }
+        else{
+            alert(" A " +pessoa2 +" é mais pesada que a " +pessoa1);
+        }
+
+    </script>
+
+    <p>
+      
