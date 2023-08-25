@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atividade 3 </title>
+</head>
+<body>
+    <script>
+        var num1;
+        var num2;
+        var soma;
+        num1=prompt(" Digite o primeiro número: ");
+        num1=parseFloat(num1);
+        num2=prompt(" Digite o segundo número: ");
+        num2=parseFloat(num2);
+        soma= num1+num2;
+        if(soma > 10){
+            alert(" A soma dos dois números é maior que 10, então aqui está o resultado: " +soma);
+        }
+        else{
+            alert(" A soma dos números é menor que 10 ");
+        }
+
+    </script>
+
+    
