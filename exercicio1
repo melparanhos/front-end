@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atividade 1 </title>
+</head>
+<body>
+    <script>
+        var num;
+        var metade;
+        num=prompt(" Digite um número ");
+        num=parseFloat(num);
+        metade=parseFloat(metade);
+        if(num > 20){
+            metade=num/2;
+            alert(" O número é maior que 20, então sua metade é: " +metade);
+        }
+        else{
+            alert(" O número não é maior que 20, então o número é: " +num);
+        }
+    </script>
+
+    <p> 
+      
